@@ -25,7 +25,6 @@ configurations {
 }
 
 repositories {
-    jcenter()
 	mavenCentral()
 }
 
@@ -38,7 +37,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-mail'
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 
-    implementation 'org.apache.groovy:groovy:4.0.18'
+    implementation 'org.codehaus.groovy:groovy:3.0.20'
     implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.16.1'
     implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.16.1'
     implementation 'ognl:ognl:3.4.2'
@@ -48,6 +47,7 @@ dependencies {
     implementation 'org.apache.poi:poi-ooxml:5.2.5'
     implementation 'commons-io:commons-io:2.15.1'
     implementation 'org.codehaus.janino:janino:3.1.11'
+    implementation 'jp.sf.amateras.stepcounter:stepcounter:3.0.4'
     
     implementation 'org.webjars:jquery:3.7.1'
     implementation 'org.webjars:bootstrap:5.3.2'
